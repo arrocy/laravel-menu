@@ -1,5 +1,5 @@
 {
-   "name": "akaunting/laravel-menu",
+   "name": "arrocy/laravel-menu",
    "description": "Menu and sidebar management package for Laravel",
    "keywords": [
        "laravel",
@@ -11,14 +11,14 @@
    "license": "MIT",
    "authors": [
         {
-            "name": "Denis Duliçi",
-            "email": "info@akaunting.com",
-            "homepage": "https://akaunting.com",
+            "name": "Arrocy",
+            "email": "info@arrocy.com",
+            "homepage": "https://arrocy.com",
             "role": "Developer"
         }
    ],
    "require": {
-        "php": "^8.0",
+        "php": "^8.2",
         "illuminate/config": "^9.0|^10.0",
         "illuminate/support": "^9.0|^10.0",
         "illuminate/view": "^9.0|^10.0",
@@ -28,11 +28,11 @@
         "friendsofphp/php-cs-fixer": "^3.12",
         "mockery/mockery": "^1.5",
         "orchestra/testbench": "^7.4|^8.0",
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "^9.5|^10.0|^11.0"
    },
    "autoload": {
         "psr-4": {
-            "Akaunting\\Menu\\": "src"
+            "Arrocy\\Menu\\": "src"
         },
         "files": [
             "src/helpers.php"
@@ -40,16 +40,16 @@
    },
     "autoload-dev": {
         "psr-4": {
-            "Akaunting\\Menu\\Tests\\": "tests"
+            "Arrocy\\Menu\\Tests\\": "tests"
         }
     },
    "extra": {
         "laravel": {
             "providers": [
-                "Akaunting\\Menu\\Provider"
+                "Arrocy\\Menu\\Provider"
             ],
             "aliases": {
-                "Menu": "Akaunting\\Menu\\Facade"
+                "Menu": "Arrocy\\Menu\\Facade"
             }
         }
    },
